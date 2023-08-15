@@ -28,6 +28,10 @@
 		0AC20DF82A89FDC000B49F4B /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC20DF72A89FDC000B49F4B /* FirebaseAppCheck */; };
 		0AC20DFA2A89FDC000B49F4B /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC20DF92A89FDC000B49F4B /* FirebaseAppDistribution-Beta */; };
 		0AC20DFC2A89FDC000B49F4B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC20DFB2A89FDC000B49F4B /* FirebaseAuth */; };
+		0AF73E1E2A8B3DC400629DD9 /* MultipleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73E1D2A8B3DC400629DD9 /* MultipleImagePicker.swift */; };
+		0AF73E202A8B3DDD00629DD9 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73E1F2A8B3DDD00629DD9 /* Parent.swift */; };
+		0AF73E222A8B3DEA00629DD9 /* SingleImagePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73E212A8B3DEA00629DD9 /* SingleImagePickerScreen.swift */; };
+		0AF73E242A8B3DF300629DD9 /* MultipleImagePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73E232A8B3DF300629DD9 /* MultipleImagePickerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		0AC20DD92A89F40000B49F4B /* ImagePickerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUtil.swift; sourceTree = "<group>"; };
 		0AC20DDB2A89F42E00B49F4B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0AC20DEC2A89F48900B49F4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AF73E1D2A8B3DC400629DD9 /* MultipleImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleImagePicker.swift; sourceTree = "<group>"; };
+		0AF73E1F2A8B3DDD00629DD9 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		0AF73E212A8B3DEA00629DD9 /* SingleImagePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImagePickerScreen.swift; sourceTree = "<group>"; };
+		0AF73E232A8B3DF300629DD9 /* MultipleImagePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleImagePickerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				0AC20DDB2A89F42E00B49F4B /* Home.swift */,
+				0AF73E1F2A8B3DDD00629DD9 /* Parent.swift */,
+				0AF73E212A8B3DEA00629DD9 /* SingleImagePickerScreen.swift */,
+				0AF73E232A8B3DF300629DD9 /* MultipleImagePickerScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC20DD92A89F40000B49F4B /* ImagePickerUtil.swift */,
+				0AF73E1D2A8B3DC400629DD9 /* MultipleImagePicker.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -212,9 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC20DDA2A89F40000B49F4B /* ImagePickerUtil.swift in Sources */,
+				0AF73E222A8B3DEA00629DD9 /* SingleImagePickerScreen.swift in Sources */,
 				0AC20DCC2A89F3DD00B49F4B /* ContentView.swift in Sources */,
 				0AC20DDC2A89F42E00B49F4B /* Home.swift in Sources */,
+				0AF73E1E2A8B3DC400629DD9 /* MultipleImagePicker.swift in Sources */,
 				0AC20DCA2A89F3DD00B49F4B /* PhotoPickerApp.swift in Sources */,
+				0AF73E202A8B3DDD00629DD9 /* Parent.swift in Sources */,
+				0AF73E242A8B3DF300629DD9 /* MultipleImagePickerScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
